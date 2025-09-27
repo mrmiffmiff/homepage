@@ -20,8 +20,17 @@
     --roboto: "Roboto", sans-serif;
 }
 
+h1,
+p {
+    margin: 0;
+}
+
 h1 {
     font-family: var(--playfair);
+}
+
+p {
+    font-family: var(--roboto);
 }
 
 .header-area {
@@ -29,7 +38,11 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0;
+    max-width: 950 px;
+    margin: 0 auto;
+
+    padding: 1.1rem;
 
     @media (max-width: 650px) {
         flex-direction: column;
@@ -56,11 +69,19 @@ figcaption {
     font-family: var(--roboto);
     font-weight: 600;
     font-size: large;
+    text-align: center;
 }
 
 .about-area {
+    position: relative;
+    flex: 1;
+    border-radius: 10px;
+    padding: clamp(1rem, 1vw, 1.1rem);
+    max-width: 50rem;
+
     @media (min-width: 700px) {
         margin-bottom: 3rem;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.12);
     }
 }
 
