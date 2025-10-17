@@ -89,3 +89,18 @@ figcaption {
     font-family: var(--roboto);
     font-weight: 400;
 }
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+
+    @media (max-width: 700px) {
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+}
+
+.social-link {
+    width: 2rem;
+}
