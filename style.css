@@ -51,6 +51,7 @@ p {
 
 figure {
     margin: 0;
+    position: relative;
 }
 
 .header-photo-container {
@@ -68,8 +69,12 @@ figure {
 figcaption {
     font-family: var(--roboto);
     font-weight: 600;
-    font-size: large;
-    text-align: center;
+    font-size: larger;
+    position: absolute;
+    bottom: 0.2rem;
+    color: black;
+    display: flex;
+    left: 25%;
 }
 
 .about-area {
