@@ -32,7 +32,8 @@ body::before {
 }
 
 h1,
-p {
+p,
+h2 {
     margin: 0;
 }
 
