@@ -79,14 +79,26 @@ figure {
 }
 
 figcaption {
+    display: block;
     font-family: var(--roboto);
     font-weight: 600;
-    font-size: larger;
+    font-size: 2rem;
     position: absolute;
     bottom: 0.2rem;
-    color: black;
-    display: flex;
-    left: 25%;
+    background-color: black;
+    color: white;
+    left: 1rem;
+    white-space: nowrap;
+
+    @media (max-width: 1400px) {
+        font-size: 1.5rem;
+        left: 2rem;
+    }
+
+    @media (max-width: 1150px) {
+        font-size: 1rem;
+        left: 0.9rem;
+    }
 }
 
 .about-area {
