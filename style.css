@@ -163,6 +163,7 @@ main h1 {
 
 .card {
     max-width: 30rem;
+    min-height: 31rem;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
