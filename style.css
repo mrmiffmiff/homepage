@@ -196,3 +196,24 @@ main h1 {
     margin: 1rem 0;
     font-size: 1.5rem;
 }
+
+footer {
+    color: white;
+    background-color: var(--background-blue);
+    padding: 1rem;
+}
+
+.email-section {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.email-section a {
+    color: inherit;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 20px;
+}
