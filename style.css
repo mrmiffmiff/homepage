@@ -51,7 +51,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 0;
-    max-width: 950 px;
+    max-width: 950px;
     margin: 0 auto;
 
     padding: 1.1rem;
@@ -174,7 +174,7 @@ main h1 {
 .card-image {
     width: 100%;
     height: 15rem;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 0.1rem 0.1rem 0 0;
 }
 
@@ -244,7 +244,7 @@ footer {
     overflow: hidden;
 }
 
-.footer-photo-img {
+.footer-photo-image {
     display: block;
     width: 100%;
     height: auto;
